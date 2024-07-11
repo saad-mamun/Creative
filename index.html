@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="other.css">
+    <!-- main.css -->
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+ <!-- header -->
+ <header class="bg-white">
+    <nav class="flex items-center justify-between lg:px-14 px-10 h-16">
+        <a href="index.html"><img src="assets/mainlogo.png" alt=""></a>
+        <div class="dropdown-menu  absolute z-10 max-md:bg-gradient-to-r from-gray-800 to-blue-900 duration-500 -top-full left-0 w-full flex flex-col items-center gap-10 font-medium text-lg md:text-black text-white py-5 md:static md:flex-row md:justify-between">
+            <ul class="flex flex-col md:flex-row items-center gap-3  lg:ps-32 md:ps-10 md:gap-4 lg:gap-8">
+                <li><a class="hover:text-[#fb8b25] transition-all duration-300" href="#">Home</a></li>
+                <li><a class="hover:text-[#fb8b25] transition-all duration-300 whitespace-nowrap" href="#aboutUs" id="two-nav">About Us</a></li>
+                <li><a class="hover:text-[#fb8b25] transition-all duration-300" href="#">Contact</a></li>
+                <li><a class="hover:text-[#fb8b25] transition-all duration-300" href="#">Skills</a></li>
+                <li><a class="hover:text-[#fb8b25] transition-all duration-300" href="#">Service</a></li>
+            </ul>
+            <div class="flex flex-col lg:flex-row items-center gap-3 lg:gap-8">
+                <button class="py-1 px-3 bg-[#F44335] text-white rounded-lg whitespace-nowrap">Register Intarest</button>
+            </div>
+        </div>
+        <div class="toggle-btn md:hidden">
+            <i class="fa-solid fa-bars fa-lg"></i>
+        </div>
+    </nav>
+</header>
+
+<!-- home section -->
+
+<section>
+    <div id="wave-parent" class=" bg-[url('assets/mainbannar.PNG')] h-screen  bg-cover bg-no-repeat">
+        <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,128L120,160C240,192,480,256,720,261.3C960,267,1200,213,1320,186.7L1440,160L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+            <div class="flex flex-col items-center container mx-auto py-20  lg:px-5 px-10">
+                <div class="text-xl text-white font-medium py-10">Discover <span class="text-[#F44335] text-xl font-bold">-</span> Interact <span class="text-[#F44335] text-xl font-bold">-</span> Engage 
+                </div>
+                <div class="flex flex-col items-center">
+                    <h1 class="text-white font-bold text-5xl py-2">
+                        Connecting  <span class="text-[#F44335]  border-b-[2px] border-[#F44335]">talent</span> to 
+                    </h1>
+                    <h1 class="text-white font-bold text-5xl py-2">opportunity through <span class="text-[#F44335]  border-b-[2px] border-[#F44335] ">skills</span> </h1>
+                </div>
+                <p class="text-xl text-center text-white font-medium py-20">
+                    We forster a skill-focussed environment enabling students to navigate their career with their self-paced learning journey and businesses to gain market-ready talent. 
+                </p>
+                <button class="bg-white py-3 px-10 text-lg font-medium text-[#F44335] rounded-full">
+                    Ask questions
+                </button>
+            </div> 
+    </div>
+</section>
+
+
+<!-- We Empower section -->
+
+<section>
+    <div class="lg:grid grid-cols-12 flex lg:flex-row flex-col items-center justify-between lg:gap-10 gap-6 container mx-auto py-10 lg:px-5 px-7">
+        <div class="col-span-3 lg:pr-20">
+            <h1 class="text-4xl font-bold">
+                At <span class="text-[#F44335] border-b-[2px] border-b-[#F44335]"> C4U, 
+            </h1>
+            <h1 class="text-4xl py-2 font-bold whitespace-nowrap">
+                We Empower:
+            </h1>
+        </div> 
+        
+        <div class="col-span-9 flex lg:flex-row flex-col gap-10">
+            <div class="flex flex-col items-start bg-[#2D3142]  px-8 py-20 rounded-xl shadow-xl">
+                <img class="bg-white rounded-full p-2" src="assets/student.png" alt="Image">
+                <h1 class="text-gray-200 font-semibold text-2xl py-3">Students</h1>
+                <p class="text-gray-200 text-lg">
+                    We help students find their way in a fast-evolving world by creating a personalised learning journey guaranteed to help stand out in a crowded job market. 
+                </p>
+            </div>
+            <div class="flex flex-col items-start bg-[#2D3142]  px-8 py-20 rounded-xl shadow-xl">
+                <img class="bg-white rounded-full p-2" src="assets/University.png" alt="Images">
+                <h1 class="text-gray-200 font-semibold text-2xl py-3">Universities</h1>
+                <p class="text-gray-200 text-lg">
+                    We help your emerging talent to unlock their full potential by combining education and work to create future-ready employees
+                </p>
+            </div>
+            <div class="flex flex-col items-start bg-[#2D3142]  px-8 py-20 rounded-xl shadow-xl">
+                <img class="bg-white rounded-full p-2" src="assets/user.png" alt="Image">
+                <h1 class="text-gray-200 font-semibold text-2xl py-3">Businesses</h1>
+                <p class="text-gray-200 text-lg">
+                    We enable businesses to tap into the diverse pool of emerging talent cultivated by universities. To co-create the future workforce and revitalise the business world.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- about us -->
+
+<section id="aboutUs" class="bg-[#F5E5E5]/30 lg:px-20 p-5">
+    <div class=" container lg:mx-auto flex lg:flex-row flex-col lg:grid grid-cols-12 gap-10 lg:divide-x-4 py-20 lg:px-5  px-5">
+            <div class="col-span-6 lg:ml-20">
+                <h6 class="uppercase text-[#F44335] font-semibold">About us</h6>
+                <h1 class="text-3xl font-semibold text-[#2D3142] lg:py-8 py-4">Our Mission </h1>
+                <p class="text-lg text-gray-900">
+                    To create a personalised  pathway for continuous learning and transferrable skills development.
+                </p>
+                <div class="w-52 lg:py-20 py-10">
+                    <div class="flex flex-row items-center text-lg font-semibold text-[#F44335] rounded-full  gap-3 py-1 px-3 border-[2px] border-[#F44335]">
+                        <button>Find out more</button>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                          </svg>
+                          
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/Rightimage.png" alt="">
+                </div>
+            </div>
+
+            <div class="col-span-6 lg:px-10 ">
+                <div class="lg:py-20 " >
+                    <img src="assets/right-image2.png" alt="">
+                </div>
+            <div class="">
+                <h6 class="uppercase text-[#F44335] font-semibold">About us</h6>
+                <h1 class="text-3xl font-semibold text-[#2D3142] lg:py-8 py-4">Our Vision</h1>
+                <p class="text-lg text-gray-900">
+                    To have a globally recognised strategic bridge between education and the job market
+                </p>
+                <div class="w-52 lg:pt-20 pt-10">
+                    <div class="flex flex-row items-center gap-3 text-lg font-semibold text-[#F44335] rounded-full py-1 px-3 border-[2px] border-[#F44335]">
+                        <button>Contact us </button>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                          </svg>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </div>
+</section>
+<div class="bg-white flex lg:flex-row flex-col  justify-between items-center container mx-auto gap-12  py-20 lg:px-10 px-7">
+    <div class="relative flex flex-col items-start">
+        <img src="assets/discover.png" alt="">
+        <h2 class="text-2xl font-semibold text-gray-800 py-3">Discover</h2>
+        <p class="text-lg text-gray-700">We uncover students unique skills to stand out in a crowded job market
+        </p>
+        <img class="absolute right-5 top-5" src="assets/1.png" alt="">
+    </div>
+    <div class="relative flex flex-col items-start">
+        <img src="assets/intarect.png" alt="">
+        <h2 class="text-2xl font-semibold text-gray-800 py-3">Interact</h2>
+        <p class="text-lg text-gray-700">We open doors to new opportunities by expanding your transferrable skills
+        </p>
+        <img class="absolute right-5 top-5" src="assets/2.png" alt="">
+    </div>
+    <div class="relative flex flex-col items-start">
+        <img src="assets/Group 199.png" alt="">
+        <h2 class="text-2xl font-semibold text-gray-800 py-3">Engage</h2>
+        <p class="text-lg text-gray-700">To forester a skill focussed environment that enable students to navigate their ideal career
+        </p>
+        <img class="absolute right-5 top-5" src="assets/3.png" alt="">
+    </div>
+</div>
+
+
+<!--Creative section -->
+
+<section>
+    <div class="bg-[#F5E5E5]/30 pb-16 px-10">
+        <div>
+            <div class="container lg:mx-auto py-10">
+                <div class="relative">
+                    <h1 class="md:text-4xl text-2xl font-bold">The Creative Team </h1>
+                    <h1 class="md:text-4xl text-2xl font-bold">behind <span class="text-[#F44335]">the door</span></h1>
+                    <img class="absolute md:w-20 w-16 md:top-10 top-5 right-0 md:left-72 " src="assets/sign.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class=" container mx-auto  lg:grid flex lg:flex-row flex-col grid-cols-12 gap-14 items-center justify-between">
+            <div class="col-span-3">
+                <div class="bg-white rounded-lg shadow-2xl py-6 px-10 flex flex-col items-center">
+                    <img src="assets/fm.png" alt="Image">
+                    <h1 class="text-2xl font-semibold whitespace-nowrap py-3">Ekta Mahajan</h1>
+                    <h5 class="text-gray-700 pb-3">Founder & C.E.O</h5>
+                    <img src="assets/media.png" alt="">
+                </div>
+            </div>
+            <div class="col-span-3">
+                <div class="bg-white rounded-lg shadow-2xl py-6 px-10 flex flex-col items-center">
+                    <img src="assets/image 2.png" alt="Image">
+                    <h1 class="text-2xl font-semibold whitespace-nowrap py-3">Toby Potter-Drake</h1>
+                    <h5 class="text-gray-700 pb-3">Product Manager Associate</h5>
+                    <img src="assets/media.png" alt="">
+                </div>
+            </div>
+            <div class="col-span-3">
+                <div class="bg-white rounded-lg shadow-2xl py-6 px-10 flex flex-col items-center">
+                    <img src="assets/image 3.png" alt="Image">
+                    <h1 class="text-2xl font-semibold whitespace-nowrap py-3">Ross Davies</h1>
+                    <h5 class="text-gray-700 pb-3 whitespace-nowrap">Corporate Growth Associate</h5>
+                    <img src="assets/media.png" alt="">
+                </div>
+            </div>
+            <div class="col-span-3">
+                <div class="bg-white rounded-lg shadow-2xl py-6 px-10 flex flex-col items-center">
+                    <img src="assets/image 4.png" alt="Image">
+                    <h1 class="text-2xl font-semibold whitespace-nowrap py-3">Leo crozier </h1>
+                    <h5 class="text-gray-700 pb-3 whitespace-nowrap">Software Developer</h5>
+                    <img src="assets/media.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer section -->
+
+<section>
+    <div class="container mx-auto py-10 flex md:flex-row flex-col gap-10 items-center  justify-between lg:px-5">
+        <div class="">
+            <img class="pb-3" src="assets/mainlogo.png" alt="">
+            <p class="text-lg">Level39</p>
+            <p class="text-lg whitespace-nowrap">One Canada Square,</p>
+            <p class="text-lg whitespace-nowrap">Canary Wharf,</p>
+            <p class="text-lg">London,</p>
+            <p class="text-lg">E145AB</p>
+        </div>
+        <div class="flex flex-col gap-3">
+            <a class="text-xl font-bold" href="#">Home</a>
+            <a class="text-lg" href="#">Collaborations</a>
+            <a class="text-lg" href="#">Statistics</a>
+            <a class="text-lg" href="#">How It Works </a>
+            <a class="text-lg" href="#">Testimonials</a>
+        </div>
+        <div class="flex flex-col gap-3">
+            <a class="text-xl font-bold" href="#aboutUs">About Us</a>
+            <a class="text-lg" href="#">Who We Are</a>
+            <a class="text-lg whitespace-nowrap" href="#">Mission statement </a>
+            <a class="text-lg" href="#">Our Vision </a>
+            <a class="text-lg" href="#">The  Team </a>
+        </div>
+        <div class="flex flex-col gap-3">
+            <a class="text-xl font-bold" href="#">Upskill</a>
+            <a class="text-lg" href="#">It Support </a>
+            <a class="text-lg" href="#">Project Managment </a>
+            <a class="text-lg" href="#">Data Analysts</a>
+            <a class="text-lg" href="#">Ux Design</a>
+        </div>
+        <div class="flex flex-col gap-3">
+            <a class="text-xl font-bold whitespace-nowrap" href="#">Contact Us </a>
+            <a class="text-lg" href="#">Email</a>
+            <a class="text-lg whitespace-nowrap" href="#">Phone number </a>
+            <a class="text-lg" href="#">Linkedin </a>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<script>
+    const toggleBtn = document.querySelector(".toggle-btn");
+const dropdown =document.querySelector(".dropdown-menu");
+toggleBtn.addEventListener("click",function () {
+    dropdown.classList.toggle('top-16')
+})
+
+</script>
+
+</body>
+</html>
